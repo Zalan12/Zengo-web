@@ -1,0 +1,145 @@
+body{
+    background-color: forestgreen;
+}
+#content{
+max-width: 888px;
+    width: auto;
+    margin: 0 auto;
+    background-color: azure;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+#imageright{
+	float: right;
+    max-width: 200px;
+    width: auto;
+    margin-left: 20px;
+    border: 1px solid forestgreen;
+    padding: 10px;
+    border-radius: 20px;
+}
+#imageright2{
+    display: none;
+}
+#imageleft2
+{
+    display: none;
+}
+
+
+#imageright img{
+    max-width: 200px;
+    width: auto;
+    width: 100%;
+}
+#imageleft{
+    float: left;
+	max-width: 300px;
+    width: auto;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border: 1px solid forestgreen;
+    padding: 10px;
+    border-radius: 20px;
+}
+#imageleft img{   
+	max-width: 300px;
+    width: auto;
+}
+.kepszoveg{
+	font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+h1,h2{
+    text-transform: uppercase;
+    color: forestgreen;
+}
+p,li{
+    text-align: justify;
+}
+@media only screen and (max-width:600px)
+{
+    h1{
+        text-align: center;
+    }
+
+    h2
+    {
+        text-align: center;
+    }
+
+    #imageright
+    {
+        
+        float: none;
+        margin: auto;
+        width: auto;
+        display: none;
+
+
+
+    }
+#imageright2{
+
+     
+        float: none;
+        margin: auto;
+        max-width: 220px;
+        display: block;
+        border: 1px solid forestgreen;
+        border-radius: 20px;
+        padding: 10px;
+        
+       
+
+    }
+    #imageright2 img
+    {
+        max-width: 200px;
+        width: auto;
+        width: 100%;
+
+    }
+
+
+    #imageleft
+    {
+        float: none;
+        margin: auto;
+        width: auto;
+        display: none;
+
+
+    }
+    #imageleft img{
+
+        max-width: 260px;
+        margin-left: 10px;
+        margin-right: 8px;
+    }
+    #imageleft2{
+        margin: auto;
+        width: 330px;
+        display: block;
+        border: 1px solid forestgreen;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    #imageleft2 img{
+        width: 300px;
+        
+    }
+
+
+
+
+}
